@@ -1,12 +1,18 @@
 cask "servo" do
-  version "2025-06-04"
-  sha256 "545bfd11054171d84e975724b4d382551a135bfe4502b56264b6394e83a6f14f"
+  version "2025-06-06"
+  sha256 "8e773569ee263db3c1d9fa13c024292460d5227f168d7e834f0c8cb087144f1d"
 
   url "https://github.com/servo/servo-nightly-builds/releases/download/#{version}/servo-latest.dmg",
       verified: "github.com/servo/servo-nightly-builds/"
   name "Servo"
   desc "Parallel browser engine"
   homepage "https://servo.org/"
+
+  livecheck do
+    url :url
+    regex(/^v?(\d+(?:[.-]\d+)+)$/i)
+    strategy :github_latest
+  end
 
   depends_on macos: ">= :ventura"
 

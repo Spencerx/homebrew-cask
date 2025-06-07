@@ -177,6 +177,7 @@ blockbench
 blockstream-green
 blocs
 blood-on-the-clocktower-online
+bluej
 bluestacks
 bluewallet
 boinc
@@ -185,6 +186,7 @@ bookends
 bookmacster
 bookmacster@beta
 boosteroid
+bootstrap-studio
 box-drive
 box-tools
 brainfm
@@ -281,8 +283,10 @@ cloudflare-warp
 cloudflare-warp@beta
 cloudmounter
 cloudnet
+cloudpouch
 cmake
 coconutbattery
+code-composer-studio
 codeedit
 codekit
 codeql
@@ -393,7 +397,9 @@ display-pilot
 displaybuddy
 distroav
 djstudio
+djuced
 dockdoor
+docker
 dockfix
 dockside
 dockx
@@ -424,6 +430,8 @@ dropshare
 dropzone
 duckduckgo
 duet
+dungeon-crawl-stone-soup-console
+dungeon-crawl-stone-soup-tiles
 duplicati
 ea
 eaglefiler
@@ -504,6 +512,7 @@ firefox@beta
 firefox@developer-edition
 firefox@esr
 firefox@nightly
+firezone
 fishing-funds
 fixkey
 flashspace
@@ -793,6 +802,7 @@ k6-studio
 k8studio
 kaleidoscope
 kando
+karafun
 katalon-studio
 kate
 kdenlive
@@ -823,6 +833,7 @@ kopiaui
 kotlin-native
 kreya
 krisp
+kstars
 kunkun
 label-live
 lagrange
@@ -920,6 +931,7 @@ marginnote
 marked
 markedit
 marsedit
+marvel
 marvin
 mathpix-snipping-tool
 mattermost
@@ -1035,7 +1047,6 @@ mudlet
 mullvad-browser
 mullvad-vpn
 mullvad-vpn@beta
-multiapp
 multitouch
 multiviewer-for-f1
 mumuplayer
@@ -1096,6 +1107,7 @@ nucleo
 nudge
 nutstore
 nvidia-geforce-now
+nvidia-nsight-compute
 nwjs
 obs
 obs-advanced-scene-switcher
@@ -1506,6 +1518,7 @@ sqlcl
 sqlitestudio
 sqlpro-for-sqlite
 squash
+ssh-config-editor
 stability-matrix
 standard-notes
 starsector
@@ -1574,6 +1587,7 @@ telegram-desktop
 telegram-desktop@beta
 teleport
 teleport-connect
+teleport@16
 tella
 temurin
 temurin@11
@@ -1757,6 +1771,7 @@ wave
 wavebox
 waves-central
 wealthfolio
+weasis
 webcatalog
 webex
 webstorm
