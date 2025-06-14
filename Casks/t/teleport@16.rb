@@ -1,6 +1,6 @@
 cask "teleport@16" do
-  version "16.5.10"
-  sha256 "c6aaa51dc5dfafd02dd3fd2a15c19395aacf5dfa047673c4b6b35ff1e2dc6a91"
+  version "16.5.12"
+  sha256 "5fbabc0ba878a0aeae9f3f77883a95ee20a0297b6bca9c6d610f3e02ea024164"
 
   url "https://cdn.teleport.dev/teleport-#{version}.pkg",
       verified: "cdn.teleport.dev/"
@@ -12,6 +12,8 @@ cask "teleport@16" do
     url "https://goteleport.com/download/"
     regex(/teleport[._-]v?(16(?:\.\d+)+)\.pkg/i)
   end
+
+  no_autobump! because: :requires_manual_review
 
   disable! date: "2025-10-01", because: :discontinued
 
