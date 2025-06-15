@@ -177,6 +177,7 @@ blockbench
 blockstream-green
 blocs
 blood-on-the-clocktower-online
+bluej
 bluestacks
 bluewallet
 boinc
@@ -185,6 +186,7 @@ bookends
 bookmacster
 bookmacster@beta
 boosteroid
+bootstrap-studio
 box-drive
 box-tools
 brainfm
@@ -281,8 +283,10 @@ cloudflare-warp
 cloudflare-warp@beta
 cloudmounter
 cloudnet
+cloudpouch
 cmake
 coconutbattery
+code-composer-studio
 codeedit
 codekit
 codeql
@@ -300,6 +304,7 @@ compositor
 confluent-cli
 connect-fonts
 consul
+container
 contour
 cookie
 copilot
@@ -393,7 +398,9 @@ display-pilot
 displaybuddy
 distroav
 djstudio
+djuced
 dockdoor
+docker
 dockfix
 dockside
 dockx
@@ -424,11 +431,16 @@ dropshare
 dropzone
 duckduckgo
 duet
+dungeon-crawl-stone-soup-console
+dungeon-crawl-stone-soup-tiles
 duplicati
 ea
 eaglefiler
 easydict
 ecamm-live
+eclipse-php
+eclipse-platform
+eclipse-rcp
 edrawmind
 egnyte
 electerm
@@ -504,6 +516,7 @@ firefox@beta
 firefox@developer-edition
 firefox@esr
 firefox@nightly
+firezone
 fishing-funds
 fixkey
 flashspace
@@ -628,6 +641,7 @@ geotag
 geph
 get-api
 get-iplayer-automator
+gg
 ghost-browser
 ghostty
 ghostty@tip
@@ -793,6 +807,7 @@ k6-studio
 k8studio
 kaleidoscope
 kando
+karafun
 katalon-studio
 kate
 kdenlive
@@ -823,6 +838,7 @@ kopiaui
 kotlin-native
 kreya
 krisp
+kstars
 kunkun
 label-live
 lagrange
@@ -857,6 +873,7 @@ lingon-x
 litecoin
 little-navmap
 little-snitch
+little-snitch@nightly
 live-home-3d
 livebook
 lm-studio
@@ -877,6 +894,7 @@ loom
 losslesscut
 loupedeck
 low-profile
+lrtimelapse
 luanti
 lulu
 lunacy
@@ -920,6 +938,7 @@ marginnote
 marked
 markedit
 marsedit
+marvel
 marvin
 mathpix-snipping-tool
 mattermost
@@ -1035,7 +1054,6 @@ mudlet
 mullvad-browser
 mullvad-vpn
 mullvad-vpn@beta
-multiapp
 multitouch
 multiviewer-for-f1
 mumuplayer
@@ -1096,6 +1114,7 @@ nucleo
 nudge
 nutstore
 nvidia-geforce-now
+nvidia-nsight-compute
 nwjs
 obs
 obs-advanced-scene-switcher
@@ -1295,6 +1314,7 @@ qqmusic
 qspace-pro
 qt-creator
 qt-creator@dev
+qt-design-studio
 quarto
 quba
 querious
@@ -1420,6 +1440,7 @@ semeru-jdk-open@8
 senadevicemanager
 sentinel
 sequel-ace
+serial-studio
 servo
 session
 sessionrestore
@@ -1462,6 +1483,7 @@ slack@beta
 sleek
 slicer
 slidepad
+slideshower
 slippi-dolphin
 smartgit
 smartsvn
@@ -1495,6 +1517,7 @@ spark-ar-studio
 sparkle
 sparrow
 spatterlight
+spectrolite
 spike
 splashtop-business
 splashtop-streamer
@@ -1506,6 +1529,7 @@ sqlcl
 sqlitestudio
 sqlpro-for-sqlite
 squash
+ssh-config-editor
 stability-matrix
 standard-notes
 starsector
@@ -1563,6 +1587,7 @@ tabtab
 tagspaces
 tailscale
 tandem
+tartelet
 taskade
 taskbar
 tastytrade
@@ -1574,6 +1599,7 @@ telegram-desktop
 telegram-desktop@beta
 teleport
 teleport-connect
+teleport@16
 tella
 temurin
 temurin@11
@@ -1598,6 +1624,7 @@ tg-pro
 thangs-sync
 the-battle-for-wesnoth
 the-clock
+the-unofficial-homestuck-collection
 thebrain
 theiaide
 thorium
@@ -1624,9 +1651,9 @@ timeular
 timing
 tinderbox
 tinkerwell
+tiny-shield
 tinymediamanager
 tmpdisk
-to-audio-converter
 todoist
 topaz-gigapixel-ai
 topaz-photo-ai
@@ -1637,6 +1664,7 @@ tor-browser@alpha
 touch-portal
 touchdesigner
 touchosc
+tourbox-console
 tower
 tqsl
 trader-workstation
@@ -1669,6 +1697,7 @@ twine
 twingate
 tyme
 typeface
+typinator
 typora
 typora@dev
 ubiquiti-unifi-controller
@@ -1718,6 +1747,7 @@ virtual-desktop-streamer
 virtualbox
 virtualbox@beta
 virtualbuddy
+virtualbuddy@beta
 virtualc64
 virtualdj
 virtualhere
@@ -1737,6 +1767,7 @@ vnc-viewer
 vnote
 voiceink
 void
+voiden
 volanta
 vpn-tracker-365
 vrew
@@ -1757,6 +1788,7 @@ wave
 wavebox
 waves-central
 wealthfolio
+weasis
 webcatalog
 webex
 webstorm

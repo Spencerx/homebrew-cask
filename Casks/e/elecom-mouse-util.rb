@@ -1,6 +1,6 @@
 cask "elecom-mouse-util" do
-  version "6.1.0"
-  sha256 "5b5e5eed4bd2e6888295610559a73b2d410a8cf5ba8689820ce5325d6f2f9f30"
+  version "6.1.1"
+  sha256 "7b50ae496ad7d345a2125357dd9fa19ea8074c5b3fef976553322b6987615891"
 
   url "https://dl.elecom.co.jp/support/download/peripheral/mouse/assistant/mac/ELECOM_MA_Setup_#{version}.zip"
   name "ELECOM Mouse Assistant"
@@ -12,11 +12,17 @@ cask "elecom-mouse-util" do
     regex(/ELECOM[._-]MA[._-]Setup[._-]v?(\d+(?:\.\d+)+)\.zip/i)
   end
 
+  no_autobump! because: :requires_manual_review
+
   depends_on macos: ">= :ventura"
 
   pkg "ELECOM_MA_Setup_#{version}.pkg"
 
-  uninstall launchctl: "jp.com.ELECOM.autorun.MouseAssistant",
+  uninstall launchctl: [
+              "application.jp.co.elecom.MouseAssistantUi.*",
+              "jp.com.ELECOM.autorun.MouseAssistant",
+            ],
+            quit:      "jp.co.elecom.MouseAssistant",
             pkgutil:   [
               "jp.co.ELECOM.MA5UninstallScript",
               "jp.co.ELECOM.MouseAssistant",
