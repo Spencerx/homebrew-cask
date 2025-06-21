@@ -1,6 +1,6 @@
 cask "understand" do
-  version "7.1.1227"
-  sha256 "ed5b0402c45fea70dd39b1fa0536b79d8813a52a0d9568190a2cc0a9702fdef9"
+  version "7.1.1229"
+  sha256 "dc9cd5e8f15aa011469123cc2390326b2e1c3b0403d278a130449cfd7a4bb6e2"
 
   url "https://latest.scitools.com/Understand/Understand-#{version}-macOS-Universal.dmg"
   name "SciTools Understand"
@@ -13,6 +13,7 @@ cask "understand" do
   end
 
   app "Understand.app"
+  binary "#{appdir}/Understand.app/Contents/MacOS/userver"
 
   zap trash: [
     "~/Library/Application Support/SciTools",

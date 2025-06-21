@@ -1,9 +1,9 @@
 cask "lazycat" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.2.8"
-  sha256 arm:   "0f55e289b08b55f0b3fbe7d4cb8da3c1871b933e4622acfe3f4c11abcdea9a7e",
-         intel: "d5c54cb0a5f3dadaa6d2991d54cc88d9f0a644d4b803bd702ff02e9161d72ca2"
+  version "1.3.0"
+  sha256 arm:   "8eaf3ed6108e292106596da6bc407a27aa00dc4f1b59477d9b137ee58d24ebef",
+         intel: "738ff9007b5a25d6978d1d3289642450793f290c8e7955269020adf8a2aa75f6"
 
   url "https://dl.lazycat.cloud/client/desktop/stable/lzc-client-desktop_v#{version}_#{arch}.dmg"
   name "LazyCat"

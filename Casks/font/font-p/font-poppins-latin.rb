@@ -12,6 +12,8 @@ cask "font-poppins-latin" do
     strategy :page_match
   end
 
+  no_autobump! because: :requires_manual_review
+
   font "PoppinsLatin-Black.otf"
   font "PoppinsLatin-BlackItalic.otf"
   font "PoppinsLatin-Bold.otf"

@@ -16,8 +16,8 @@ cask "sketch" do
     end
   end
   on_ventura :or_newer do
-    version "2025.1.1,203387"
-    sha256 "e16211d30582720c34df47bbd42531568f6a9bc4017b2a9204e0948c83a4a69e"
+    version "2025.1.3,203472"
+    sha256 "25b8afdfabb0ed401d12340fcee3ab23eca26967046c4ef779a59e419d9b6130"
 
     # Older versions may have a more recent `pubDate` than newer versions, so
     # we have to check all of the items in the appcast.

@@ -16,6 +16,8 @@ cask "wezterm" do
     end
   end
 
+  no_autobump! because: :requires_manual_review
+
   conflicts_with cask: "wezterm@nightly"
 
   app "WezTerm-macos-#{version.csv.first}-#{version.csv.second}/WezTerm.app"
@@ -28,12 +30,9 @@ cask "wezterm" do
     binary "#{appdir}/WezTerm.app/Contents/MacOS/#{tool}"
   end
 
-  binary "#{appdir}/WezTerm.app/Contents/Resources/shell-completion/zsh",
-         target: "#{HOMEBREW_PREFIX}/share/zsh/site-functions/_wezterm"
-  binary "#{appdir}/WezTerm.app/Contents/Resources/shell-completion/bash",
-         target: "#{HOMEBREW_PREFIX}/etc/bash_completion.d/wezterm"
-  binary "#{appdir}/WezTerm.app/Contents/Resources/shell-completion/fish",
-         target: "#{HOMEBREW_PREFIX}/share/fish/vendor_completions.d/wezterm.fish"
+  bash_completion "#{appdir}/WezTerm.app/Contents/Resources/shell-completion/bash", target: "wezterm"
+  fish_completion "#{appdir}/WezTerm.app/Contents/Resources/shell-completion/fish", target: "wezterm.fish"
+  zsh_completion "#{appdir}/WezTerm.app/Contents/Resources/shell-completion/zsh", target: "_wezterm"
 
   zap trash: [
     "~/.local/share/wezterm",

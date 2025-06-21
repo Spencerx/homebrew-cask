@@ -1,6 +1,6 @@
 cask "meetingbar" do
-  version "4.11.3"
-  sha256 "644928c39006228eb52503b305362ccb128ccf2166127458dd0204d92d0edaa9"
+  version "4.11.6"
+  sha256 "4f19af496d4ff44b9b0ee02be02bc76207f3e365a7f9e77c7219a08c607838d7"
 
   url "https://github.com/leits/MeetingBar/releases/download/v#{version}/MeetingBar.dmg"
   name "MeetingBar"
@@ -12,9 +12,9 @@ cask "meetingbar" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :catalina"
-
   no_autobump! because: :bumped_by_upstream
+
+  depends_on macos: ">= :catalina"
 
   app "MeetingBar.app"
 
